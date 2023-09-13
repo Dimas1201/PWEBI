@@ -1,0 +1,240 @@
+body {
+    background-image: url('Plant2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; /* Remove default body margin */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    position: relative;
+}
+
+.legend {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #f8f8ff;
+    background-color: rgba(26, 25, 25, 0.589);
+    background-image: linear-gradient(to left, #b9b9b9a2, #1d1d1da2);
+    padding: 5px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.legend a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #ffffff;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.logo img {
+    max-width: 275px;
+    height: auto;
+}
+
+.Judul {
+    text-align: center; /* Center the text horizontally */
+    background-color: rgba(247, 51, 51, 0.877);
+    color: #f8f8ff;
+    padding: 10px;
+    border-radius: 15px;
+    background-image: linear-gradient(to left,#ff70708c, #ff1313a2, #ff70708c);
+    font-family: sans-serif;
+}
+
+/* Style for the Backgroundmotiva class */
+.Backgroundmotiva {
+    margin-top: 60px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.89); /* Same background color as Information1 */
+    position: relative;
+    background-image: linear-gradient(to top, #000000ce, #6e6e6ea2, #0000006c);
+    text-align: center;
+}
+
+.Backgroundmotiva img {
+    width: 75%;
+    margin-top: 30px;
+    height: auto;
+    border-radius: 80px;
+    padding-top: 30px;
+    margin-bottom: 130px; /* Atur margin bawah sesuai keinginan Anda */
+}
+
+.paragraph {
+    position: absolute;
+    font-family: sans-serif;
+    border-radius: 80px;
+    font-size: 18px;
+    bottom: 30px; /* Adjust as needed to position the paragraph */
+    left: 10px;
+    right: 10px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(255, 252, 252, 0.705); /* Same background color as Information1 */
+    clip-path: ellipse(0% 0%, 100% 0%, 75% 100%, 25% 100%);
+}
+
+.Information1 {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 252, 252, 0.705);
+    padding: 20px;
+    border-radius: 70px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 35px; /* Add bottom margin */
+    background-image: linear-gradient(to left, #ffffffa2, #575656a2);
+    margin-top: 45px;
+    margin-left: 20%;
+    padding-left: 40px;
+}
+
+.Information1 .image {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.Information1 .image img {
+    max-width: 100%; /* Set a maximum width */
+    height: 210px;
+    border-radius: 80px; /* Add border-radius */
+}
+
+.Information1 .content {
+    flex: 2;
+    padding-left: 40px;
+}
+
+.Information2 {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 252, 252, 0.705);
+    padding: 20px;
+    border-radius: 70px;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #ffffffa2, #575656a2);
+    font-size: 20px;
+    margin-top: 35px;
+    margin-right: 20%;
+    padding-right: 40px;
+}
+
+.Information2 .Content2 {
+    flex: 2;
+    padding-right: 40px;
+    padding-left: 20px;
+}
+
+.Information2 .image2 {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.Information2 .image2 img {
+    max-width: 100%; /* Set a maximum width */
+    height: 210px;
+    border-radius: 80px; /* Add border-radius */
+}
+
+/* New Information3 class */
+.Information3 {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 252, 252, 0.705);
+    padding: 20px;
+    border-radius: 70px;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #ffffffa2, #575656a2);
+    font-size: 20px;
+    margin-top: 35px;
+    margin-right: 20%;
+    padding-right: 40px;
+}
+
+.Information3 .Content3 {
+    flex: 2;
+    padding-right: 40px;
+    padding-left: 20px;
+}
+
+.Information3 .image3 {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.Information3 .image3 img {
+    max-width: 100%; /* Set a maximum width */
+    height: 210px;
+    border-radius: 80px; /* Add border-radius */
+}
+.Information4 {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 252, 252, 0.705);
+    padding: 20px;
+    border-radius: 70px;
+    font-family: sans-serif;
+    background-image: linear-gradient(to left, #ffffffa2, #575656a2);
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 20%;
+    padding-left: 40px;
+}
+
+.Information4 .image4 {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.Information4 .image4 img {
+    max-width: 100%;
+    height: 210px;
+    border-radius: 80px;
+}
+
+.Information4 .content4 {
+    flex: 2;
+    padding-left: 40px;
+}
+.Information5 {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 252, 252, 0.705);
+    padding: 20px;
+    border-radius: 70px;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #ffffffa2, #575656a2);
+    font-size: 20px;
+    margin-top: 35px;
+    margin-right: 20%;
+    padding-right: 40px;
+}
+
+.Information5 .Content5 {
+    flex: 2;
+    padding-right: 40px;
+    padding-left: 20px;
+}
+
+.Information5 .image5 {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.Information5 .image5 img {
+    max-width: 100%; /* Set a maximum width */
+    height: 210px;
+    border-radius: 80px; /* Add border-radius */
+}
